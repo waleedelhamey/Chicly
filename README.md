@@ -38,13 +38,13 @@ ________________________________________
 1.	Clone the Repository:
 bash
 Copy code
-git clone https://github.com/your-repo/chicly.git
+git clone to the repository link
 2.	Set Up Database: Ensure you have a running instance of the database and the necessary tables for categories, products, and orders.
 3.	Deploy the Application:
   •	Deploy the WAR file on a Java Servlet container like Apache Tomcat.
   •	Configure the database connection in the ORM layer.
 4.	Access the Admin Dashboard:
-  •	After deploying, visit http://localhost:8080/chicly/admin to access the Admin Dashboard.
+  •	After deploying, visit the provided link and add /adminDashboard to access the Admin Dashboard.
   •	Use the credentials set in the database to log in as an admin.
 ________________________________________
 # Admin Dashboard Highlights

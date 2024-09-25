@@ -7,12 +7,19 @@ ________________________________________
 •	Admin Dashboard: A user-friendly dashboard for managing the entire platform.
 •	Category Management: Add, update, delete, and view categories (e.g., tops, bottoms, accessories).
 •	Product Management: Full CRUD functionality for fashion items such as t-shirts, jeans, and more. This includes:
-•	Adding new products with details like name, price, description, image, and stock quantity.
-•	Updating product details as necessary.
-•	Removing outdated or unavailable items from the catalog.
+  -	Adding new products with details like name, price, description, image, and stock quantity.
+  - Updating product details as necessary.
+  - Removing outdated or unavailable items from the catalog.
 •	Order Management: View and manage customer orders, track order history, and update order statuses.
 •	Customer Management: View customer profiles, track their order history, and manage customer data.
 •	Session Management: Admin sessions are handled securely, ensuring that only authorized personnel can manage the system.
+• Main User Interface:
+  - Product Browsing and Filtering: Users can browse products and filter them by color, price, and category, or search for specific products using keywords.
+  - Shopping Cart: Users can manage their shopping cart by adding, removing, or updating items and proceeding to make purchases.
+  - Order History: Users can view their order history and see detailed information about each order.
+  - Order Management: Users can cancel their orders.
+  - User Profile: Users can view and update their profile information.
+  - Product Ordering: Users can place orders, ensuring the product is within their credit limit and available stock.
 ________________________________________
 # Technologies Used
 •	Java Servlet: For handling HTTP requests and responses.

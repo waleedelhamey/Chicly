@@ -7,9 +7,9 @@ ________________________________________
 •	Admin Dashboard: A user-friendly dashboard for managing the entire platform.
 •	Category Management: Add, update, delete, and view categories (e.g., tops, bottoms, accessories).
 •	Product Management: Full CRUD functionality for fashion items such as t-shirts, jeans, and more. This includes:
-o	Adding new products with details like name, price, description, image, and stock quantity.
-o	Updating product details as necessary.
-o	Removing outdated or unavailable items from the catalog.
+•	Adding new products with details like name, price, description, image, and stock quantity.
+•	Updating product details as necessary.
+•	Removing outdated or unavailable items from the catalog.
 •	Order Management: View and manage customer orders, track order history, and update order statuses.
 •	Customer Management: View customer profiles, track their order history, and manage customer data.
 •	Session Management: Admin sessions are handled securely, ensuring that only authorized personnel can manage the system.
@@ -34,11 +34,11 @@ Copy code
 git clone https://github.com/your-repo/chicly.git
 2.	Set Up Database: Ensure you have a running instance of the database and the necessary tables for categories, products, and orders.
 3.	Deploy the Application:
-o	Deploy the WAR file on a Java Servlet container like Apache Tomcat.
-o	Configure the database connection in the ORM layer.
+  •	Deploy the WAR file on a Java Servlet container like Apache Tomcat.
+  •	Configure the database connection in the ORM layer.
 4.	Access the Admin Dashboard:
-o	After deploying, visit http://localhost:8080/chicly/admin to access the Admin Dashboard.
-o	Use the credentials set in the database to log in as an admin.
+  •	After deploying, visit http://localhost:8080/chicly/admin to access the Admin Dashboard.
+  •	Use the credentials set in the database to log in as an admin.
 ________________________________________
 # Admin Dashboard Highlights
 •	Simple and Clean UI: The admin dashboard is designed with simplicity in mind. All the key management features are easily accessible from the sidebar, and product details are displayed in a structured format.
